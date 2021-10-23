@@ -1,13 +1,13 @@
 :root {
-    --header_background:       #c2ff34;
-    --header_hover_background: #00003510;
+    --header_background:       #34ff71;
+    --header_hover_background: #000c3510;
     --header_hover_color:      #2a3961;
     --body_background:         #2a3961;
-    --body_header_color:       #c2ff34;
+    --body_header_color:       #31eb69;
     --body_color:              #ececec;
-    --error_color:             #f72585;
-    --footer_color:            #7072eb;
-    --footer_background:       #253257;
+    --error_color:             #cf206f;
+    --footer_color:            #4f52f5;
+    --footer_background:       #243669;
 }
 * {
     box-sizing: border-box;
