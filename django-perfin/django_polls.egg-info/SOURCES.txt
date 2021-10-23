@@ -1,0 +1,16 @@
+LICENCE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+../perfin/perfin/static/perfin/style.css
+../perfin/perfin/templates/perfin/detail.html
+../perfin/perfin/templates/perfin/footer.html
+../perfin/perfin/templates/perfin/header.html
+../perfin/perfin/templates/perfin/index.html
+../perfin/perfin/templates/perfin/results.html
+django_perfin.egg-info/PKG-INFO
+django_perfin.egg-info/SOURCES.txt
+django_perfin.egg-info/dependency_links.txt
+django_perfin.egg-info/requires.txt
+django_perfin.egg-info/top_level.txt
