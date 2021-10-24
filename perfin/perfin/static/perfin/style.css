@@ -1,13 +1,13 @@
 :root {
-    --header_background:       #34ff71;
+    --header_background:       #14df51;
     --header_hover_background: #000c3510;
     --header_hover_color:      #2a3961;
-    --body_background:         #2a3961;
-    --body_header_color:       #31eb69;
+    --body_background:         #2a2f4e;
+    --body_header_color:       #14df51;
     --body_color:              #ececec;
     --error_color:             #cf206f;
-    --footer_color:            #4f52f5;
-    --footer_background:       #243669;
+    --footer_color:            #14df51;
+    --footer_background:       #20243b;
 }
 * {
     box-sizing: border-box;
@@ -37,7 +37,7 @@ input {
     text-decoration: none;
     font-size: 17px;
     line-height: 20px;
-    border-radius: 6px;
+    border-radius: 8px;
     font-style: italic;
 }
 .header a.logo {
@@ -116,6 +116,7 @@ ul li:last-child {
     background-color: var(--footer_background);
     text-align: center;
     cursor: default;
+    border-radius: 8px;
 }
 .footer a {
     color: var(--footer_color);
