@@ -1,12 +1,13 @@
 :root {
-    --header_background:       #12c748;
+    --header_background:       #0086c091;
     --header_hover_background: #000c3510;
-    --header_hover_color:      #2a3961;
+    --header_hover_color:      #b1e0ff;
+    --header_color:            #eae1fff5;
     --body_background:         #2a2f4e;
-    --body_header_color:       #14df51;
-    --body_color:              #ececec;
+    --body_header_color:       #0b5a7c;
+    --body_color:              #e8dfffef;
     --error_color:             #cf206f;
-    --footer_color:            #14df51;
+    --footer_color:            #0b5a7c;
     --footer_background:       #20243b;
 }
 * {
@@ -32,8 +33,8 @@ input {
     box-shadow: 3px 6px rgb(0 0 0 / 6%), 0 3px 6px rgb(0 0 0 / 16%)
 }
 .header a {
+    color: var(--header_color);
     float: left;
-    color: var(--body_background);
     text-align: center;
     padding: 10px;
     text-decoration: none;
@@ -47,7 +48,7 @@ input {
 }
 .header a:hover {
     background-color: var(--header_hover_background);
-    color: var(--header_hover_color);
+    color: var(--header_color);
 }
 .header-right {
     float: right;
@@ -63,7 +64,6 @@ input {
     }
 }
 h1 {
-    color: var(--body_header_color);
     text-align: center;
 }
 div.body {
@@ -104,7 +104,7 @@ ul li:last-child {
     color: var(--body_color);
 }
 .body a:hover {
-    color: var(--header_background);
+    color: var(--header_hover_color);
     text-decoration: underline;
 }
 .button {
