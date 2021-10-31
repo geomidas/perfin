@@ -23,3 +23,11 @@ class Choice(models.Model):
 
     def __str__(self):
         return self.choice_text
+
+
+class HistoricalNetWorth(models.Model):
+    date = models.DateField()
+    net_worth = models.IntegerField(0)
+
+    def __str__(self):
+        return self.net_worth

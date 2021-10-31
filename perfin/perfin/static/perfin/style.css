@@ -16,7 +16,7 @@
 body {
     height: 100%;
     margin: 0;
-    margin-top: 0px;
+    margin-bottom: 30px;
     background-color: var(--body_background);
     color: var(--body_color);
 }
@@ -28,6 +28,8 @@ input {
     background-color: var(--header_background);
     padding: 10px 15px;
     margin-bottom: 30px;
+    border-bottom-color: var(--header_hover_background);
+    box-shadow: 3px 6px rgb(0 0 0 / 6%), 0 3px 6px rgb(0 0 0 / 16%)
 }
 .header a {
     float: left;
@@ -38,7 +40,7 @@ input {
     font-size: 17px;
     line-height: 20px;
     border-radius: 8px;
-    font-style: italic;
+    font-size: medium;
 }
 .header a.logo {
     font-size: 25px;
