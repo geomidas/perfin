@@ -76,10 +76,10 @@ table {
     border-radius: 8px;
     text-align: center;
     padding: 12px;
+    color: #e6e9ee;
 }
 
 th, td {
-    color: #e6e9ee;
     padding: 12px;
 }
 tr:nth-child(even){

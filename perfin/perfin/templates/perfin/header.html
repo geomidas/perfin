@@ -5,10 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Perfin</title>
     <div class="header">
-        <a href="" class="logo">Perfin</a>
+        <a href="{% url 'home' %}" class="logo">Perfin</a>
         <div class="header-right">
-            <a>€</a>
-            <a>&#127968</a>
+            <a href={% url 'home' %}>&#127968; Home</a>
+            <a href={% url 'home' %}>&#127919; Plan</a>
+            <a href={% url 'networth' %}>&#128176; Net Worth</a>
+            <a href={% url 'settings' %}>&#9881; Settings</a>
         </div>
     </div>
 </head>

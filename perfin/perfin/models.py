@@ -30,4 +30,4 @@ class HistoricalNetWorth(models.Model):
     net_worth = models.IntegerField(0)
 
     def __str__(self):
-        return self.net_worth
+        return "{}-{}".format(self.date, self.net_worth)

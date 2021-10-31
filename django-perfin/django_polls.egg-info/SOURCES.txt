@@ -7,7 +7,7 @@ setup.py
 ../perfin/perfin/templates/perfin/detail.html
 ../perfin/perfin/templates/perfin/footer.html
 ../perfin/perfin/templates/perfin/header.html
-../perfin/perfin/templates/perfin/index.html
+../perfin/perfin/templates/perfin/home.html
 ../perfin/perfin/templates/perfin/results.html
 django_perfin.egg-info/PKG-INFO
 django_perfin.egg-info/SOURCES.txt

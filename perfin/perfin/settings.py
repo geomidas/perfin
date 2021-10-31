@@ -31,13 +31,13 @@ ALLOWED_HOSTS = ['perfin-xtzbznqbia-uc.a.run.app', 'localhost', '127.0.0.1']
 # Application definition
 
 INSTALLED_APPS = [
+    'perfin',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'perfin',
 ]
 
 MIDDLEWARE = [

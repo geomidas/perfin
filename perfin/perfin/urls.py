@@ -1,10 +1,16 @@
-from django.urls import path
+from django.contrib import admin
+from django.urls import path, include
+from django.conf.urls.static import static
+from django.conf import settings
 from . import views
 
 app_name = 'perfin'
 urlpatterns = [
-    path('', views.IndexView.as_view(), name='index'),
-    path('<int:pk>/', views.DetailView.as_view(), name='details'),
-    path('<int:pk>/results/', views.ResultsView.as_view(), name='results'),
-    path('<int:question_id>/vote/', views.vote, name='vote'),
+    path('admin/', admin.site.urls),
+    path('', views.HomeView.as_view(), name='home'),
+    path('networth/', views.NetWorthView.as_view(), name='networth'),
+    path('settings/', views.SettingsView.as_view(), name='settings')
+
 ]
+
+urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
