@@ -14,6 +14,16 @@ class HomeView(generic.ListView):
         return Question.objects.filter(pub_date__lte=timezone.now()).order_by('-pub_date')[:5]
 
 
+class BudgetView(generic.ListView):
+    model = Question
+    template_name = 'perfin/budget.html'
+
+
+class InvestmentsView(generic.ListView):
+    model = Question
+    template_name = 'perfin/investments.html'
+
+
 class NetWorthView(generic.ListView):
     model = Question
     template_name = 'perfin/networth.html'

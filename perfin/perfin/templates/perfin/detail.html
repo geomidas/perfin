@@ -1,18 +1,22 @@
 {% include "./header.html" %}
 <div class="body">
-    <form action="{% url 'perfin:vote' question.id %}" method="post">
-        {% csrf_token %}
-        <h1>{{ question.question_text }}</h1>
-        <ul>
-        {% for choice in question.choice_set.all %}
-            <li>
-                <input type="radio" name="choice" id="choice{{ forloop.counter }}" value="{{ choice.id }}">
-                <label for="choice{{ forloop.counter }}">{{ choice.choice_text }}</label><br>
-            </li>
-        {% endfor %}
-        </ul>
-        {% if error_message %}<p class="error"><strong>{{ error_message }}</strong></p>{% endif %}
-        <input class="button" type="submit" value="Vote">
-    </form>
+    <h1>Investments</h1>
 </div>
+<div class="body">
+    <div class="flex-container">
+        <div>
+            <table>
+                <tr>
+                    <td>&#128640;</td>
+                    <th>Tesla</th>
+                    <td>10000</td>
+                    <td>10000</td>
+                </tr>
+                <tr>
+                    
+                </tr>
+            </table>
+        </div>
+    </div>
+</div class="body">
 {% include "./footer.html" %}
