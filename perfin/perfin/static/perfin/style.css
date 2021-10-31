@@ -63,11 +63,11 @@ input {
 }
 h1 {
     color: var(--body_header_color);
-    text-align: left;
+    text-align: center;
 }
 div.body {
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 table {
     background-color: #00000013;
@@ -120,18 +120,15 @@ ul li:last-child {
     color: var(--error_color);
 }
 .footer {
-    margin-top: 50px;
-    margin-bottom: 30px;
-    margin-left: 2%;
-    margin-right: 2%;
-    padding: 26px 26px;
+    margin-top: 60px;
+    padding: 20px 20px;
     background-color: var(--footer_background);
     text-align: center;
     cursor: default;
-    border-radius: 8px;
 }
 .footer a {
     color: var(--footer_color);
+    font-size: smaller;
     text-decoration: none;
 }
 .footer href {
@@ -140,6 +137,7 @@ ul li:last-child {
 .flex-container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .flex-container > div {
   margin-right: 12px;
