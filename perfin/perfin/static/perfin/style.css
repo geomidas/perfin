@@ -1,14 +1,14 @@
 :root {
-    --header_background:       #0086c091;
-    --header_hover_background: #000c3510;
+    --header_background:       #0086c098;
+    --header_hover_background: #0011351a;
     --header_hover_color:      #b1e0ff;
-    --header_color:            #eae1fff5;
+    --header_color:            #e7eaf1;
     --body_background:         #2a2f4e;
     --body_header_color:       #0b5a7c;
-    --body_color:              #e8dfffef;
+    --body_color:              #dfecffef;
     --error_color:             #cf206f;
     --footer_color:            #1489bb;
-    --footer_background:       #20243b;
+    --footer_background:       #232842;
 }
 * {
     box-sizing: border-box;
